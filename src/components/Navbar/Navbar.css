@@ -1,0 +1,30 @@
+.Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1vh 1vw;
+}
+
+.NavItem{
+    display:inline-block;
+}
+    
+
+.NavLink:link, .NavLink:visited{
+    color: grey;
+    text-decoration: none;
+    padding: 1vh 1vw;
+    
+}
+
+.NavLink:hover{        
+    text-decoration: none;
+    border-bottom: 2px solid #333;    
+}
+/*.NavLink:active{
+    color: grey;
+    text-decoration: none;
+    border-bottom: 5px;
+    border-color: blue;
+}*/
+
