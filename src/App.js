@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Project from "./components/Project/Project";
+import Footer from "./components/Footer/Footer";
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route path="/about" render={About} />
           <Route path="/project" render={Project} />
         </Switch>
+        <Footer />
       </Router>
     );
   }

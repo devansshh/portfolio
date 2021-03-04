@@ -1,0 +1,16 @@
+.foot{
+    
+    padding: 1vh 1vw;
+    background-color: thistle;
+}
+.footTitle{
+    text-align: center;
+    font-size: 1.5em;
+}
+.footContent{
+    text-align: center;    
+}
+.social{
+    padding: 1vh 2vw;
+
+}
